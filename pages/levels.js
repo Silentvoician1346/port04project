@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Levels() {
     return(
-        <div class="w-[360px] sm:w-[1024px] h-full bg-white my-[20px] py-[5px] rounded-lg">
+        <div class="overflow-hidden w-[360px] sm:w-[1024px] h-full bg-white my-[20px] py-[5px] rounded-lg">
             <div class="w-full m-[10px] p-[5px] pl-[10px] mb-[15px] bg-black text-white font-bold rounded-lg">COURSES</div>
             <div class="grid grid-cols-2 sm:grid-cols-4 w-full h-full place-items-center">
                 <Link href="/daftar">
