@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function FormLogin() {
     return(
         <div class="overflow-hidden w-[360px] sm:w-[1024px] h-[1350px] sm:h-[437px] bg-white my-[20px] py-[5px] rounded-lg mb-[0px] sm:mb-[100px]">
-            <div class="w-full m-[10px] p-[5px] pl-[10px] mb-[15px] bg-black text-white font-bold rounded-lg">FORM PENDAFTARAN</div>
+            <div class="w-[335px] sm:w-full m-[10px] p-[5px] pl-[10px] mb-[15px] bg-black text-white font-bold rounded-lg">FORM PENDAFTARAN</div>
             <form class="grid grid-cols-1 sm:grid-cols-4 w-full h-[328px] place-items-center">
                 {/* CARD 1 */}
                 <div class="flex-auto w-[228px] h-[328px] bg-gray-200 mx-[10px] border-2 border-gray-400 rounded-lg">
