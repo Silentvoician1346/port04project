@@ -1,17 +1,13 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Marquee from "react-fast-marquee";
 
-
-import Contact from './contact';
-import Content from './content';
 import Footer from './footer';
 import Header from './header';
-import CarouselSmall from './carousel';
 import Landing from './landing';
+import ContactSimple from './contactsimple';
+import FormLogin from './formlogin';
 
-
-export default function Home() {
+export default function Daftar() {
   return (
     <div class="container w-screen sm:max-w-full h-full bg-background1 bg-center bg-fixed">
       {/* MARQUEE */}
@@ -20,18 +16,13 @@ export default function Home() {
           PangYa was an online multiplayer casual golf simulation game designed by Korean development company Ntreev Soft and NCSoft. From 2005 until March 2009, the game was known as Albatross18 in North America.
         </div>
       </Marquee>
-      <div ></div>
       <div class="w-screen sm:w-[1054px] mx-auto px-[2px] sm:px-[15px] h-full bg-gradient-to-r from-blue-900 via-blue-500 to-blue-900 relative z-10 justify-center">
       {/* HEADER */}
       <Header />
       {/* LANDING */}
-      <Landing />
-      {/* CONTENT */}
-      <Content />
-      {/* CAROUSEL */}
-      <CarouselSmall />
+      <FormLogin />
       {/* CONTACT */}
-      <Contact />
+      <ContactSimple />
       {/* FOOTER */}
       <Footer />
       </div>

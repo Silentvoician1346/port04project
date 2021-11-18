@@ -1,17 +1,14 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Marquee from "react-fast-marquee";
 
-
-import Contact from './contact';
-import Content from './content';
 import Footer from './footer';
 import Header from './header';
-import CarouselSmall from './carousel';
 import Landing from './landing';
+import ContactSimple from './contactsimple';
+import FormLogin from './formlogin';
+import Diamonds from './diamonds';
 
-
-export default function Home() {
+export default function Premium() {
   return (
     <div class="container w-screen sm:max-w-full h-full bg-background1 bg-center bg-fixed">
       {/* MARQUEE */}
@@ -25,13 +22,9 @@ export default function Home() {
       {/* HEADER */}
       <Header />
       {/* LANDING */}
-      <Landing />
-      {/* CONTENT */}
-      <Content />
-      {/* CAROUSEL */}
-      <CarouselSmall />
+      <Diamonds />
       {/* CONTACT */}
-      <Contact />
+      <ContactSimple />
       {/* FOOTER */}
       <Footer />
       </div>

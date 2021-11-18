@@ -1,17 +1,12 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Marquee from "react-fast-marquee";
 
-
-import Contact from './contact';
-import Content from './content';
 import Footer from './footer';
 import Header from './header';
-import CarouselSmall from './carousel';
-import Landing from './landing';
+import ContactSimple from './contactsimple';
+import Levels from './levels';
 
-
-export default function Home() {
+export default function Courses() {
   return (
     <div class="container w-screen sm:max-w-full h-full bg-background1 bg-center bg-fixed">
       {/* MARQUEE */}
@@ -25,13 +20,9 @@ export default function Home() {
       {/* HEADER */}
       <Header />
       {/* LANDING */}
-      <Landing />
-      {/* CONTENT */}
-      <Content />
-      {/* CAROUSEL */}
-      <CarouselSmall />
+      <Levels />
       {/* CONTACT */}
-      <Contact />
+      <ContactSimple />
       {/* FOOTER */}
       <Footer />
       </div>
